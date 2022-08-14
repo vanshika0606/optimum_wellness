@@ -1,0 +1,79 @@
+.methodology{
+    width:80vw;
+    margin: auto;
+    position:absolute;
+    top:730px;
+    
+    
+}
+.methods{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+
+
+
+.methodology> h1{
+font-weight: 700;
+font-size: 52px;
+line-height: 2;
+
+
+color: #7621EC;
+}
+.methodology >h3{
+    font-size: 33px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #747474;
+    line-height: 2;
+}
+.methodology > p{
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.2;
+    
+}
+.three-methodology{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.three-methodology h3{
+    font-size: 25px;
+    color: #747474;
+    padding:30px 0;
+
+}
+.three-methodology p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.nutrition, .exercise , .rest{
+    width:23vw;
+}
+
+.nutrition img{
+    border: 5px solid #9EBBDC;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.exercise img{
+    border: 5px solid #C6E656;
+    width:204px;
+    height:204px;
+    border-radius: 50%;
+}
+.rest img{
+    border: 5px solid #0aae8d;
+    width:204px;
+    height:204px;
+    border-radius: 50%;
+}
+

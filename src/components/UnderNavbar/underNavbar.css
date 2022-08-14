@@ -1,0 +1,124 @@
+/* .under-navbar{
+    height:110vh;
+    overflow-y: hidden;
+} */
+
+
+.half-ellipse{
+    z-index: -1;
+    height:220vh;
+    background-color: rgba(181, 142, 217, 0.159);
+    border-radius: 50%;
+    position:relative;
+    top:-590px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    
+}
+
+.circle-in-center{
+    width:435px;
+    background-color: #7621EC;
+    height: 435px;
+    border-radius: 50%;
+    position:relative;
+    top:-192px;
+    box-shadow: 2px 1px 48px -12px rgba(0, 0, 0, 0.937);
+    display: flex;
+    align-items: center;
+}
+.grey-circle{
+    width:390px;
+    background-color: rgb(215, 211, 217);
+    height: 390px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.75);
+    border-radius: 50%;
+
+}
+.img1{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+
+}
+.img2{
+
+    position: absolute;
+    top: 124px;
+    right:40px;
+}
+.img3{
+    position: absolute;
+    top:370px;
+    left: 140px;
+}
+.img4{
+    position: absolute;
+    top:370px;
+    right:150px;
+}
+.grey-line-circle{
+
+    width:345px;
+   
+    border: 1px solid rgba(96, 96, 96, 0.383);
+    margin: auto;
+    height: 345px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.white-circle{
+    width:300px;
+    background-color: white;
+    margin: auto;
+    height: 300px;
+    border-radius: 50%;
+    color: #7621EC;
+
+}
+.small-purple-circle{
+    width:15px;
+    height:15px;
+    background-color: #7621EC;
+    border-radius: 50%;
+    position:absolute;
+}
+.first-circle {
+    top: 60px;
+    left: 294px;
+}
+.second-circle {
+    top: 330px;
+    left: 86px;
+}
+
+#one-stop{
+    font-style: italic;
+    margin-top: 40px;
+    font-size: 37px;
+}
+#solutions{
+    font-style: italic;
+    font-size: 65px;
+    line-height: 0.8;
+    overflow-y: hidden;
+    
+}
+.for-all{
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.4;
+}
+#wellness{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    background-color: #7621EC;
+}
+
