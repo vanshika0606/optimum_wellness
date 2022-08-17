@@ -1,16 +1,4 @@
-.methodology {
-  /* width:80vw;
-    margin: auto;
-    position:absolute;
-    top:730px; */
-}
-.methods {
-  /* display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    margin-bottom: 90px; */
-}
+
 
 .methodology > h1 {
   font-weight: 700;

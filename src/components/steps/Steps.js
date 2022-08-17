@@ -6,14 +6,19 @@ const Steps = () => {
   return (
     <div>
       <div className="rectangle">
-        <div>
-      {/* <div className="half-ellipse-in-rectangle"></div> */}
+       
+      <div className="rectangle-for-half-ellipse">
+      <div className="half-ellipse-in-rectangle">
       </div>
       </div>
+      
+      </div>
+      
+     
       
       
      
-      {/* <div className="steps">
+      <div className="steps">
         <h3>How It Works</h3>
 
         <ul className="steps-list">
@@ -25,13 +30,13 @@ const Steps = () => {
         </ul>
         <h4>Step 1: Select your Programme</h4>
 
-        <img src={step1} />
+        <img src={step1} className="step-img" />
         <p>
           Fill up a preliminary assessment form and provide with relevant
           information about your lifestyle that's enable our experts to create
           the right customized programme for your goals.
         </p>
-      </div> */}
+      </div>
     </div>
   );
 };
