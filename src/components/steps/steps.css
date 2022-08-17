@@ -1,18 +1,18 @@
 .rectangle{
-    margin-top: 100px;
+    margin-top: 7vw;
     
-    background: #D8D5DC;
-    height:82vh;
+    background: hsl(266, 9%, 85%);
+    height:41.4vw;
     
    
     
 }
 .half-ellipse-in-rectangle{
-   position: absolute;
-   top:1166px;
-    width: 1263px;
+   /* position: absolute;
+   top:1166px; */
+    width: 100vw;
 	height: 900px;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(171, 36, 36);
 	clip-path: path("M -2,900 Q 736,-50 1466,1200 Z");
     
 }

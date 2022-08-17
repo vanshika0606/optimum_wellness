@@ -9,10 +9,12 @@ import img4 from '../images/exercise_4.png';
 const UnderNavbar = () => {
   return (
     <div className="under-navbar">
-      <img src={img1} className="img1"/>
-      <img src={img2} className="img2"/>
-      <img src={img3} className="img3"/>
-      <img src={img4} className="img4"/>
+      
+      
+    
+      <div className="small-purple-circle first-circle"></div>
+              <div className="small-purple-circle second-circle"></div>
+      
       <div className="half-ellipse">
       
         <div className="circle-in-center">
@@ -20,8 +22,7 @@ const UnderNavbar = () => {
           <div className="grey-circle">
             <div className="grey-line-circle">
             
-              <div className="small-purple-circle first-circle"></div>
-              <div className="small-purple-circle second-circle"></div>
+              
 
               <div className="white-circle">
                 
@@ -34,8 +35,14 @@ const UnderNavbar = () => {
               </div>
             </div>
           </div>
+          
         </div>
+      
       </div>
+      <img src={img1} className="img1"/>
+      <img src={img2} className="img2"/>
+      <img src={img3} className="img3"/>
+      <img src={img4} className="img4"/>
      
     </div>
   );

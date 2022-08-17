@@ -24,7 +24,7 @@ const Navbar = () => {
         
         <div className="list-images">
         
-        <ul className="hidee hide">
+        <ul className="hide">
             <li>PROGRAMS</li>
             <li>TRANSFORMATIONS</li>
             <li>BLOGS</li>
