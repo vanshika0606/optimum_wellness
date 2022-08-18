@@ -65,8 +65,13 @@
 .css-1m9128y .MuiButtonBase-root{
     width:1.2vw;
     height:1.2vw;
-    margin-left: 0.8vw;
+    margin-left: 0.4vw;
     
+}
+
+.css-1m9128y >button > .css-d4n4tp{
+    width:1vw !important;
+    height:1vw !important;
 }
 .css-aq8pb7-MuiSvgIcon-root , .css-d4n4tp{
     width:1vw !important;
