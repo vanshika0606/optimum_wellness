@@ -1,17 +1,18 @@
 import React from "react";
 import "./footer.css";
+import logo from '../images/logo.png'
+
 export default function Footer() {
   return (
     <div>
       <div className="footer">
         <div className="box1-box2">
         <div className="box1">
-          <h2>Good For The Plants, And Its People</h2>
-          <div>
-            Consciously crafted yoga & meditation accessories by yoga teachers,
-            for everyone.
-          </div>
-          <div className="fom">F O M</div>
+          
+        <div className='logo'>
+            <img src={logo} />
+            
+        </div>
 
           <div id="logos">
             <div>
