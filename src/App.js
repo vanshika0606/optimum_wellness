@@ -15,8 +15,8 @@ function App() {
       <UnderNavbar/>
       <Methodology/>
       <Steps/>
-      {/* <Carousel/>
-      <Coaches/> */}
+      <Carousel/>
+      {/* <Coaches/> */}
       
     </div>
   );

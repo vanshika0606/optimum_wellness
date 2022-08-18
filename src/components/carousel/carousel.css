@@ -1,49 +1,50 @@
 .carousel{
-    position: relative;
-    top:-250px;
+    position:absolute;
+   top:210vw;
+   height: 52vw;
+   overflow: hidden;
+    width:100vw;
 }
 
 
 .card{
     background-color: #7621EC;
     display: flex;
-    padding:50px;
-    /* position:absolute;
-    top:-300px; */
-    /* z-index: 1; */
+    padding:4vw;
+    
+    
 }
 .card >img{
-    width:514px;
-    height:643px;
+    width:36vw;
+    height:45vw;
 }
 .success-stories{
-    width:48vw;
+    width:51vw;
     margin: auto;
-    margin-top: 25px;
-    
+    margin-top: 1.5vw;
+   
     text-align: justify;
     color:#F5F5F5;
     font-family: sans-serif;
 }
 .success-stories h2{
-    font-size:54px;
-    /* position:absolute;
-    left:550px;
-    top:20px */
+    font-size:4vw;
+    /* text-decoration: underline; */
     
 }
 .success-stories p{
-    font-size: 19px;
+    font-size: 1.5vw;
     width:35vw;
+    
     margin: auto;
     position: relative;
-    top:-50px;
-    left:10px;
+    top:-4vw;
+    /* left:10px; */
 }
 .css-1m9128y {
     width: 100%;
-    margin-left: 20vw;
-    top: -80px;
+    left:17vw;
+    top: -14vw;
     z-index: 1;
     
     position: relative;
@@ -52,13 +53,20 @@
 }
 .quote_1{
     position: relative;
-    top:-10px;
+    top:-1vw;
+    width:8vw;
 }
 .quote_2{
+    position: relative;
+    top:-4vw;
+    width:8vw;
     float:right;
 }
-
+.css-1m9128y .MuiButtonBase-root{
+    width:1.2vw;
+    height:1.2vw;
+}
 .css-aq8pb7-MuiSvgIcon-root{
-    width:8px !important;
-    height:8px !important;
+    width:1vw !important;
+    height:1vw !important;
 }
