@@ -22,8 +22,7 @@ indicatorIcon= {{
 indicatorIconButtonProps={{
   style: {
     
-    margin: '0.25vw',
-    padding: '0.2vw', 
+    
     color:'#D9D9D9'  ,  
      backgroundColor: '#D9D9D9'      
   }
