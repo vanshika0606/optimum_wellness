@@ -29,8 +29,6 @@
 }
 .success-stories h2{
     font-size:4vw;
-    /* text-decoration: underline; */
-    
 }
 .success-stories p{
     font-size: 1.5vw;
@@ -39,7 +37,7 @@
     margin: auto;
     position: relative;
     top:-4vw;
-    /* left:10px; */
+
 }
 .css-1m9128y {
     width: 100%;
