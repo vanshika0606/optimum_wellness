@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
-import logo from '../images/logo.png'
+
+import footer_logo from '../images/footer_logo.jpg';
 
 export default function Footer() {
   return (
@@ -9,62 +10,65 @@ export default function Footer() {
         <div className="box1-box2">
         <div className="box1">
           
-        <div className='logo'>
-            <img src={logo} />
+        <div className='footer-logo'>
+            <img src={footer_logo} />
             
         </div>
 
           <div id="logos">
-            <div>
-              <i class="fa fa-instagram" aria-hidden="true"></i>
+          <div>
+              <i className="fa fa-facebook-official" aria-hidden="true"></i>
             </div>
-            <div>
+          <div>
               <i className="fa fa-twitter" aria-hidden="true"></i>
-            </div>
-            <div>
-              <i className="fa fa-facebook" aria-hidden="true"></i>
             </div>
             <div>
               <i class="fa fa-youtube-play" aria-hidden="true"></i>
             </div>
             <div>
-              <i className="fa fa-pinterest-p" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
             </div>
+            <div>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            
+           
           </div>
         </div>
 
         <div className="box2">
 
-          <h2>Quick links</h2>
-          <div>FAQs</div>
-          <div>Returns & Exchanges</div>
-          <div>Shipping Policy</div>
-          <div>COVID-19 Prevention</div>
-          <div>Contact Us</div>
-          <div>Press</div>
+          <h2>LOCATION</h2>
+          <p>86 Road Broknin Street,New York,USA</p>
+          <p>needhelp@mail.com</p>
+          <p>+91-82402 15482</p>
+          
 
         </div>
         </div>
 
         <div className="box3-box4">
         <div className="box3">
-          <h2>Shop</h2>
-          <div>PUre Yoga Mats</div>
-          <div>Yoga Accessories</div>
-          <div>Meditation Accessories</div>
-          <div>Journey Accessories</div>
+          <h2>LINKS</h2>
+          <p>Programs</p>
+          <p>Transformations</p>
+          <p>Blogs</p>
+          <p>Contact</p>
+          <p>About</p>
 
         </div>
         <div className="box4">
-          <h2> Exclusive Discounts & More!</h2>
-          <div>Get 10% off your first purchase!</div>
-          <div>Be the first to know about sales, product launches & exclusive offers!</div>
-          <div>No spam, ever.</div>
-          <input type="text" placeholder="Enter email" className="footer-input"/>
-          <br/>
-          <button className="footer-button">SIGN UP</button>
+          <h2>KEEP IN TOUCH</h2>
+          <p>Sign up now for our mailing list to get all lastest</p>
+          <p>news and updates</p>
+          <div className="input-button">
+          <input type="text" placeholder="Enter email" className="footer-input" value="Enter your email"/>
+          
+          <button className="footer-button">&#8250;</button>
+          </div>
         </div>
         </div>
+      <div className="footer-last-line">Optimum Wellness &#169; 2022 All Rights Reserved</div>
       </div>
     </div>
   );

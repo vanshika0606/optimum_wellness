@@ -19,7 +19,7 @@ function App() {
       <Carousel/>
       <Coaches/>
 
-      {/* <Footer/> */}
+      <Footer/>
       
     </div>
   );

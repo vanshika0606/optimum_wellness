@@ -38,7 +38,7 @@ const Coaches = () => {
             In The News
        </div>
        <img src={news} className="news-images" />
-       <img src={last}  className="last"/>
+       {/* <img src={last}  className="last"/> */}
       </div>
     </div>
   );
