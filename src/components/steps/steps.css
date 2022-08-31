@@ -3,8 +3,8 @@
     
     background: hsl(266, 9%, 85%);
     height:41.4vw;
-    display: flex;
-    align-items: end;
+    /* display: flex;
+    align-items: end; */
 }
 .half-ellipse-in-rectangle{
     position:relative;
@@ -22,7 +22,8 @@
     width:100vw;
     height:35vw;
     overflow-y: hidden;
-   
+    position: relative;
+    top: 6.5vw;
    
 }
 
