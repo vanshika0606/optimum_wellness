@@ -24,19 +24,25 @@
 .square-design{
     margin-top: 6vw;
     width:100vw;
+    position: absolute;
 }
 .coaches-image{
-    /* position: relative; */
-    
+    position: relative;
+   
     width:85vw;
     
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    top:250vw;
+    /* position: absolute; */
+    bottom:-7vw;
     left:6vw;
     justify-content:end;
     
+}
+
+.square-coaches{
+    display: flex;
+    overflow-y: hidden;
 }
 .image-card{
     

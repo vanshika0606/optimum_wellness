@@ -14,6 +14,7 @@ const Coaches = () => {
         MEET OUR COACHES
         <div className="coaches-line"></div>
       </div>
+      <div className="square-coaches">
       <img className="square-design" src={square} />
 
       <div className="coaches-image">
@@ -27,7 +28,7 @@ const Coaches = () => {
                 </>
                })
         }
-           
+           </div>
       </div>
       <div className="join-on-facebook">
        Join Us On <span className="facebook">Facebook</span>

@@ -42,10 +42,10 @@
 .css-1m9128y {
     width: 100%;
     left:17vw;
-    top: -8vw;
+    bottom: 4vw;
     z-index: 1;
     
-    position: relative;
+    position: absolute;
   
     text-align: center;
 }
