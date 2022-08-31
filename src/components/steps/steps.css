@@ -1,6 +1,6 @@
 .rectangle{
     margin-top: 7vw;
-    
+    overflow-y: hidden;
     background: hsl(266, 9%, 85%);
     height:41.4vw;
     /* display: flex;
@@ -8,7 +8,7 @@
 }
 .half-ellipse-in-rectangle{
     position:relative;
-   
+    
     left:-13.2vw;
     width:126.4vw;
 	height: 90vw;
@@ -16,6 +16,10 @@
     border-radius: 50% 50% 0 0/100% 100% 0 0;
     
     
+}
+.rectangle-ellipse{
+    height:85vw;
+    overflow-y:hidden;
 }
 
 .rectangle-for-half-ellipse{

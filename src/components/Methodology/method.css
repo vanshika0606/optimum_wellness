@@ -1,7 +1,7 @@
 .methodology{
-  position: relative;
+  /* position: relative; */
     top: 43vw;
-    height: 87vw;
+    /* height: 87vw; */
 }
 
 .methodology > h1 {
@@ -53,7 +53,7 @@
 
 .nutrition img {
     margin-top: 4vw;
-  border: 5px solid #9ebbdc;
+  border: 0.5vw solid #9ebbdc;
   width:11vw;
   padding: 1vw;
   border-radius: 50%;
@@ -61,7 +61,7 @@
 
 .exercise img {
   margin-top: 4vw;
-  border: 5px solid #c6e656;
+  border: 0.5vw solid #c6e656;
   width:11vw;
   height:11vw;
   
@@ -69,7 +69,7 @@
 }
 .rest img {
   margin-top: 4vw;
-  border: 5px solid #0aae8d;
+  border: 0.5vw solid #0aae8d;
   width:11vw;
 
  

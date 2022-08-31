@@ -15,8 +15,8 @@
     background-color: #7621EC;
 }
 .meet-coaches-section{
-    position: relative;
-    top: -27vw;
+    /* position: relative;
+    top: -27vw; */
     /* height:184vw; */
     overflow-y: hidden;
 }
@@ -26,14 +26,14 @@
     width:100vw;
 }
 .coaches-image{
-    position: relative;
+    /* position: relative; */
     
     width:85vw;
     
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    top:11vw;
+    top:250vw;
     left:6vw;
     justify-content:end;
     
@@ -41,7 +41,7 @@
 .image-card{
     
     width:20vw;
-    margin-bottom: 16vw;
+    margin-bottom: 15vw;
     text-align: justify;
     font-family:sans-serif;
 }
@@ -63,7 +63,7 @@
 
 .join-on-facebook{
     position: relative;
-    top:11vw;
+    top:15vw;
     height: 90vw;
     color:#747474;
     font-size: 3vw;
@@ -87,7 +87,7 @@
 }
 .news-images{
     width:80vw;
-    height: 15vw;
+    /* height: 15vw; */
     margin-top: 6vw;
 }
 .last{

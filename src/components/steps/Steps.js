@@ -18,7 +18,7 @@ const Steps = () => {
 
 
   return (
-    <div>
+    <div className="rectangle-ellipse">
       <div className="rectangle">
        
       <div className="rectangle-for-half-ellipse">
