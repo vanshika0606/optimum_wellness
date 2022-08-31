@@ -1,0 +1,24 @@
+
+
+.choose-container{
+    display: flex;
+}
+.choose-img{
+    width:52vw;
+    height:55vw;
+}
+.choose-box{
+    padding-top: 4vw;
+    
+    width:42vw;
+}
+.choose-your-program{
+    font-size: 6vw;
+    padding-bottom: 2vw;
+    color:#7621ec;
+    font-family: sans-serif;
+}
+.choose-box >p{
+    font-size: 1.6vw;
+    text-align: justify;
+}

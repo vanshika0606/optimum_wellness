@@ -6,7 +6,7 @@ import './method.css';
 
 const Methodology = () => {
   return (
-    <div className='methods'>
+    
       <div className='methodology'>
         <h1>Our Methodology</h1>
         <h3>THE 3 POINT APPROACH</h3>
@@ -34,7 +34,7 @@ const Methodology = () => {
             </div>
         </div>
       </div>
-    </div>
+    
   )
 }
 

@@ -1,12 +1,13 @@
 .under-navbar{
-    height:52.5vw;
+    /* height:52.5vw; */
+    position: absolute;
     overflow-y: hidden;
 }
 
 
 .half-ellipse{
 
-    height:100vw;
+    height:90vw;
     width:100vw;
     border-radius: 50%;
     background-color: rgba(181, 142, 217, 0.159);
@@ -18,20 +19,20 @@
 }
 
 .circle-in-center{
-    width:30vw;
+    width:27vw;
     background-color: #7621EC;
-    height: 30vw;
+    height: 27vw;
     border-radius: 50%;
     position:relative;
-    bottom:19.2vw;
+    bottom:17vw;
     box-shadow: 2px 1px 48px -12px rgba(0, 0, 0, 0.937);
     display: flex;
     align-items: center;
 }
 .grey-circle{
-    width:27vw;
+    width:24vw;
     background-color: rgb(215, 211, 217);
-    height: 27vw;
+    height: 24vw;
     display: flex;
     align-items: center;
     margin: auto;
@@ -41,53 +42,53 @@
 }
 .img1{
     position:absolute;
-    width:30vw;
-    left: 2vw;
-    top: 6vw;    
+    width:26vw;
+    left: 6vw;
+    top: -3vw;    
     z-index: 1;
 
 }
 .img2{
-    width:30vw;
+    width:26vw;
     position: absolute;
-    top:6vw;
-    right:1.4vw;
+    top:-3vw;
+    right:5vw;
 }
 .img3{
     position: absolute;
-    width:30vw;
-    top:27vw;
-    left: 11vw;
+    width:26vw;
+    top:17vw;
+    left: 14vw;
 }
 .img4{
     position: absolute;
-    width:30vw;
-    top:27vw;
-    right:12vw;
+    width:26vw;
+    top:17vw;
+    right:15vw;
 }
 .grey-line-circle{
 
-    width:24vw;
+    width:21vw;
    
     border: 1px solid rgba(96, 96, 96, 0.383);
     margin: auto;
-    height: 24vw;
+    height: 21vw;
     border-radius: 50%;
     display: flex;
 }
 
 .white-circle{
-    width:21vw;
+    width:18vw;
     background-color: white;
     margin: auto;
-    height: 21vw;
+    height: 18vw;
     border-radius: 50%;
     color: #7621EC;
 
 }
 .small-purple-circle{
-    width:1.2vw;
-    height:1.2vw;
+    width:1vw;
+    height:1vw;
     background-color: #7621EC;
     border-radius: 50%;
     position:relative;
@@ -98,30 +99,30 @@
     top:7.8vw;
 }
 .second-circle {
-    top: 25.7vw;
-    left: 42vw;
+    top: 20vw;
+    left: 40.4vw;
 }
 
 #one-stop{
     font-style: italic;
     margin-top: 3vw;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 #solutions{
     font-style: italic;
-    font-size: 4.5vw;
+    font-size: 4vw;
     line-height: 0.8;
     overflow-y: hidden;
     
 }
 .for-all{
     font-style: italic;
-    font-size: 2vw;
+    font-size: 1.5vw;
     line-height: 1.4;
 }
 #wellness{
     font-style: italic;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: bolder;
     color: white;
     background-color: #7621EC;

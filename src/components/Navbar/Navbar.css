@@ -46,15 +46,19 @@
    
 }
 .hide li{
-    padding:10px;
+    
+    padding:5px 10px;
     margin-left: 20px;
     list-style: none;
    
     
 }
 .hide li:hover{
-   
+    background-color: #7621EC;
     cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    transition: 0.2s;
 
 }
 .list-images{

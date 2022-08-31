@@ -1,6 +1,6 @@
 .carousel{
-    position:absolute;
-   top:210vw;
+    position:relative;
+   top:-25vw;
    height: 54vw;
    overflow: hidden;
     width:100vw;
@@ -10,28 +10,28 @@
 .card{
     background-color: #7621EC;
     display: flex;
-    padding:4vw;
+    padding:3vw;
     
     
 }
 .card >img{
-    width:36vw;
-    height:45vw;
+    width:30vw;
+    height:36vw;
 }
 .success-stories{
     width:51vw;
     margin: auto;
-    margin-top: 1.5vw;
+    margin-top: 1.3vw;
    
     text-align: justify;
     color:#F5F5F5;
     font-family: sans-serif;
 }
 .success-stories h2{
-    font-size:4vw;
+    font-size:3.5vw;
 }
 .success-stories p{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     width:35vw;
     
     margin: auto;
@@ -42,22 +42,22 @@
 .css-1m9128y {
     width: 100%;
     left:17vw;
-    top: 45.4vw;
+    top: -8vw;
     z-index: 1;
     
-    position: absolute;
+    position: relative;
   
     text-align: center;
 }
 .quote_1{
     position: relative;
     top:-1vw;
-    width:8vw;
+    width:6vw;
 }
 .quote_2{
     position: relative;
-    top:-4vw;
-    width:8vw;
+    top:-5vw;
+    width:6vw;
     float:right;
 }
 .css-1m9128y .MuiButtonBase-root{

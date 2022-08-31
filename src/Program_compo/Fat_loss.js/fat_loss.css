@@ -1,0 +1,48 @@
+
+.fat-loss-buttons ul{
+    width:80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.fat-section{
+    padding-top:4vw;
+}
+.fat-loss-buttons ul li{
+    font-size: 1.5vw;
+    width: 20vw;
+    margin: 0 0.5vw;
+    padding: 1vw 0vw;
+    border-radius: 30px;
+    font-weight: bold;
+
+}
+.fat-loss-buttons ul li:hover{
+    background-color:  #7621EC;
+    color:white;
+    cursor: pointer;
+}
+
+
+
+.fat-loss-img{
+    margin: 2vw 0;
+    width:38vw;
+}
+
+.fat-loss-info p{
+     width:55vw;
+     font-size: 1.27vw;
+     margin: auto;
+
+}
+.active-step{
+    background-color: #7621EC;
+    color: white;
+
+}
+.unactive-step{
+    color: #747474;
+    background-color: #D8D5DC; 
+}
