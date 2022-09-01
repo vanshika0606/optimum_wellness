@@ -17,6 +17,7 @@ const Coaches = () => {
       <div className="square-coaches">
       <img className="square-design" src={square} />
 
+      <div className="coach-images-box">
       <div className="coaches-image">
         {
             data.map((d)=>{
@@ -29,6 +30,7 @@ const Coaches = () => {
                })
         }
            </div>
+      </div>
       </div>
       <div className="join-on-facebook">
        Join Us On <span className="facebook">Facebook</span>
