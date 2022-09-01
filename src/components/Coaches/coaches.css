@@ -47,7 +47,7 @@
 .image-card{
     
     width: 13vw;
-    margin-right: 8vw;
+    margin-right: 6.5vw;
     margin-bottom: 15vw;
     text-align: justify;
     font-family: sans-serif;
@@ -99,7 +99,7 @@
 }
 .coach-images-box{
     overflow-y: hidden;
-    width: 100vw;
+    width: 94.5vw;
     justify-content: center;
     display: flex;
 }
