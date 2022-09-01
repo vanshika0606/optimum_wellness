@@ -27,16 +27,22 @@
     position: absolute;
 }
 .coaches-image{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 8vw;
+    /* row-gap: 14vw; */
+    grid-template-rows: auto auto;
     position: relative;
    
-    width:85vw;
+    /* width:85vw; */
     
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     /* position: absolute; */
     bottom:-7vw;
     /* left:6vw; */
-    justify-content:end;
+    /* justify-content:end; */
     
 }
 
@@ -47,7 +53,7 @@
 .image-card{
     
     width: 13vw;
-    margin-right: 6.5vw;
+    /* margin-right: 6.5vw; */
     margin-bottom: 15vw;
     text-align: justify;
     font-family: sans-serif;
