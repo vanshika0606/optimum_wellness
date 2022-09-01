@@ -105,7 +105,7 @@
 }
 .coach-images-box{
     overflow-y: hidden;
-    width: 94.5vw;
+    width: 100vw;
     justify-content: center;
     display: flex;
 }
