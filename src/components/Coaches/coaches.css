@@ -46,10 +46,11 @@
 }
 .image-card{
     
-    width:20vw;
+    width: 13vw;
+    margin-right: 8vw;
     margin-bottom: 15vw;
     text-align: justify;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 .image-card  img{
     width:13vw;
@@ -98,8 +99,8 @@
 }
 .coach-images-box{
     overflow-y: hidden;
-    width: 90vw;
-    justify-content: flex-end;
+    width: 100vw;
+    justify-content: center;
     display: flex;
 }
 .last{
