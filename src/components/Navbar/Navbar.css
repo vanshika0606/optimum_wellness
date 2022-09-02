@@ -4,13 +4,13 @@
 }
 .navbar-upper{
   
-    height:29px;
+    height:2vw;
     background-color: #7621EC;
     box-shadow: 2px -2px 21px 0px rgba(0,0,0,0.75);
 
 }
 .navbar-upper-shadow{
-    height: 34px;
+    height: 2.4vw;
     
    
 }
@@ -20,19 +20,21 @@
     align-items: center;
     color:#7621EC;
     height:7vw;
-    
-    font-size: 1.2rem;    
+    justify-content: space-between;
+    font-size: 1.5vw;    
     font-weight: bolder;
     overflow-y: hidden;
     
     
 }
 .logo{
-    margin-right: 15px;
+    
     
 }
 .logo img{
-    margin-left: 30px;
+    margin-left: 3vw;
+    
+    width:10vw;
    
 }
 
@@ -41,14 +43,14 @@
     
     display: flex;
     width: 100vw;
-    margin-right: 40px;
+    margin-right: 2.5vw;
     justify-content: flex-end;
    
 }
 .hide li{
     
-    padding:5px 10px;
-    margin-left: 20px;
+    padding:0.7vw 1vw;
+    margin-left: 2vw;
     list-style: none;
    
     
@@ -58,118 +60,13 @@
     cursor: pointer;
     color: white;
     border-radius: 20px;
-    transition: 0.2s;
+    
 
 }
 .list-images{
-    height: 100px;
-    width:88vw;
+   
+    width:80vw;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-
-
-
-
-
-@media screen and (max-width: 1200px) {
-  
-    .navbar-upper-shadow {
-        height: 30px;
-    }
-    .navbar-upper {
-        height: 24px;
-    }
-    .navbar{
-        font-size: 1rem;;
-    }
-    .logo img{
-        width:6rem;
-    }
-    
-}
-
-@media screen and (max-width: 1000px) {
-  
-    .navbar-upper-shadow {
-        height: 20px;
-    }
-    .navbar-upper {
-        height: 16px;
-    }
-    .navbar{
-       
-        font-size: 0.8rem;;
-    }
-    .logo img{
-        width:5rem;
-    }
-    .hide{
-        margin-right: 20px;
-    }
-    
-}
-
-@media screen and (max-width: 770px) {
-  
-    .navbar-upper-shadow {
-        height: 20px;
-    }
-    .navbar-upper {
-        height: 16px;
-    }
-    .navbar{
-        
-        font-size: 0.6rem;;
-    }
-    .logo img{
-        width:4rem;
-    }
-    .hide{
-        margin-right: 10px;
-    }
-    .hide li{
-        padding:5px;
-    }
-    
-}
-
-@media screen and (max-width: 600px) {
-  
-    .navbar-upper-shadow {
-        height: 12px;
-    }
-    .navbar-upper {
-        height: 8px;
-    }
-    .navbar{
-        
-        font-size: 0.4rem;;
-    }
-    .logo img{
-        width:2.5rem;
-        margin-left: 15px;
-    }
-    .logo{
-        margin-right: 0;
-    }
-    
-    .hide{
-        margin-right: 10px;
-    }
-    .hide li{
-        padding:5px;
-        margin-left: 0;
-    }
-    
-}
-
-
-
-
-
-
-
-
-

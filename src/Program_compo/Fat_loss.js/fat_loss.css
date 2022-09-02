@@ -10,7 +10,7 @@
     padding-top:4vw;
 }
 .fat-loss-buttons ul li{
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     width: 20vw;
     margin: 0 0.5vw;
     padding: 1vw 0vw;
@@ -28,11 +28,13 @@
 
 .fat-loss-img{
     margin: 2vw 0;
-    width:38vw;
+    width:30vw;
+    height:25vw;
 }
 
 .fat-loss-info p{
      width:55vw;
+     
      font-size: 1.27vw;
      margin: auto;
 

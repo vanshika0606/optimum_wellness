@@ -5,7 +5,7 @@
 }
 .choose-img{
     width:52vw;
-    height:55vw;
+    height:47vw;
 }
 .choose-box{
     padding-top: 4vw;
@@ -13,12 +13,12 @@
     width:42vw;
 }
 .choose-your-program{
-    font-size: 6vw;
+    font-size: 5vw;
     padding-bottom: 2vw;
     color:#7621ec;
     font-family: sans-serif;
 }
 .choose-box >p{
-    font-size: 1.6vw;
+    font-size: 1.3vw;
     text-align: justify;
 }
