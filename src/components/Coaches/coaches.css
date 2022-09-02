@@ -15,9 +15,6 @@
     background-color: #7621EC;
 }
 .meet-coaches-section{
-    /* position: relative;
-    top: -27vw; */
-    /* height:184vw; */
     overflow-y: hidden;
 }
 
@@ -31,18 +28,10 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 8vw;
-    /* row-gap: 14vw; */
+  
     grid-template-rows: auto auto;
     position: relative;
-   
-    /* width:85vw; */
-    
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* position: absolute; */
     bottom:-7vw;
-    /* left:6vw; */
-    /* justify-content:end; */
     
 }
 
@@ -53,10 +42,10 @@
 .image-card{
     
     width: 13vw;
-    /* margin-right: 6.5vw; */
     margin-bottom: 15vw;
     text-align: justify;
     font-family: sans-serif;
+
 }
 .image-card  img{
     width:13vw;
@@ -100,7 +89,6 @@
 }
 .news-images{
     width:80vw;
-    /* height: 15vw; */
     margin: 6vw 0;
 }
 .coach-images-box{

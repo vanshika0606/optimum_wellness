@@ -1,23 +1,18 @@
 .methodology{
-  /* position: relative; */
-    top: 43vw;
-    /* height: 87vw; */
+  top: 43vw;
 }
 
 .methodology > h1 {
   font-weight: 700;
 
   font-size: 3.5vw;
-  /* position: absolute;
-  top: 57.9vw;
-  left: 34vw; */
-
   color: #7621ec;
 }
 .methodology > h3 {
   font-size: 2vw;
   letter-spacing: 1px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  font-family:  sans-serif;
   color: #747474;
   margin: 2.5vw 0;
 }
@@ -71,7 +66,5 @@
   margin-top: 4vw;
   border: 0.5vw solid #0aae8d;
   width:11vw;
-
- 
   border-radius: 50%;
 }
