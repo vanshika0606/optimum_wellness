@@ -7,7 +7,7 @@
 
 }
 .fat-section{
-    padding-top:4vw;
+    padding-top:3vw;
 }
 .fat-loss-buttons ul li{
     font-size: 1.4vw;
@@ -47,4 +47,25 @@
 .unactive-step{
     color: #747474;
     background-color: #D8D5DC; 
+}
+.under-fat{
+    margin-top:6vw;
+    margin-bottom: 4vw;
+    width:92vw;
+}
+.under-fat > div{
+    width:20vw;
+}
+.under-fat p{
+    text-align:justify;
+}
+.under-fat img{
+    width:12vw;
+}
+.start-your-health{
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family:  sans-serif;
+    color:#6814de;
+    margin-bottom: 7vw;
 }
