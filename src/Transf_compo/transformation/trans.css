@@ -1,0 +1,22 @@
+.tran-stories{
+    font-size: 3vw;
+    color: #747474;
+    
+}
+.trans{
+    
+    margin-top: 5vw;
+}
+
+.trans-img{
+    width:23vw;
+    margin-bottom: 3vw;
+}
+
+.trans-grid{
+    width: 79vw;
+    margin: 3vw auto;
+    display: grid;
+    grid-template-columns: 23vw 23vw 23vw;
+    grid-column-gap: 5vw;
+}
