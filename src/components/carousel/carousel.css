@@ -1,5 +1,6 @@
 .carousel{
-   height: 54vw;
+   /* height: 54vw; */
+   margin:3vw 0 9vw 0;
    overflow: hidden;
     width:100vw;
 }
