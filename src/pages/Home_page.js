@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar/Navbar.js';
 import Steps from '../components/steps/Steps';
 import UnderNavbar from '../components/UnderNavbar/UnderNavbar.js';
 import Footer from '../components/footer/Footer.js';
+import Join_Us from '../components/Coaches/Join_Us';
 
 
 const Home_page = () => {
@@ -18,6 +19,7 @@ const Home_page = () => {
       <Steps/>
       <Carousel/>
       <Coaches/>
+      <Join_Us/>
       <Footer/>
     </div>
   )

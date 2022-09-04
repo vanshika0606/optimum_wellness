@@ -2,6 +2,10 @@
     
     box-shadow: -1px -3px 25px -1px rgba(0, 0, 0, 0.759);
 }
+a{
+    text-decoration: none;
+    color:#7621EC;
+}
 .navbar-upper{
   
     height:2vw;

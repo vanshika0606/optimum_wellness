@@ -1,0 +1,33 @@
+.about-img >img{
+    width:40vw;
+
+}
+.about-img{
+    margin: 7vw auto 6vw auto;
+    display: flex;
+    width:85vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-img> h1{
+    color:#7621EC;
+    font-size: 4.5vw;
+    width:25vw;
+    text-align: left;
+}
+.about-story{
+    margin:auto;
+}
+.our-story{
+    width:70vw;
+    margin: auto;
+}
+.our-story >h3{
+    margin-bottom: 2vw;
+    color: #7621EC;
+    font-size: 2.5vw;
+}
+.our-story>p{
+    font-size: 1.5vw;
+    text-align: justify;
+}
