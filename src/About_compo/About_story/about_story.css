@@ -23,11 +23,57 @@
     margin: auto;
 }
 .our-story >h3{
-    margin-bottom: 2vw;
+    margin-bottom: 1.6vw;
     color: #7621EC;
     font-size: 2.5vw;
 }
 .our-story>p{
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     text-align: justify;
+}
+.two-coaches-back{
+    margin:15vw auto 7vw auto;
+    height: 53vw;
+    background-color: #7621EC;
+    
+}
+.two-coaches{
+   
+    width:81vw;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top:84vw;
+    left:9vw;
+}
+.two-coaches img{
+    
+    
+    z-index: 1;
+    border-radius: 50%;
+    width:17vw;
+    height:17vw;
+    object-fit:fill;
+    background-color: white;
+}
+.two-coaches h3{
+    font-size: 1.6vw;
+   
+    padding: 1.5vw 0 1vw 0;
+
+}
+.two-coaches h5{
+    font-size: 1.3vw;
+    padding-bottom: 1.5vw;
+}
+.two-coaches p{
+    font-size: 1.1vw;
+    text-align: justify;
+}
+.coachh1{
+   
+width:35vw;
 }
