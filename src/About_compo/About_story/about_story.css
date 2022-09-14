@@ -90,7 +90,6 @@ width:35vw;
 }
 .ready{
     position: absolute;
-    top: 339vw;
     left:40vw;
     width:30vw;
     line-height: 1.3;
@@ -104,4 +103,8 @@ width:35vw;
 .ready button:hover{
     background-color: #8546dd;
     cursor: pointer;
+}
+.question-ready{
+    align-items: center;
+    display: flex;
 }
