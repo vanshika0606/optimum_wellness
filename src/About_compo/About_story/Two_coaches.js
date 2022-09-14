@@ -6,7 +6,7 @@ import './about_story.css';
 
 const Two_coaches = () => {
   return (
-    <div className="two-coaches-back">
+    <div className="coach-flex">
     <div className="two-coaches">
       <div className="coachh1">
         <img src={coach1} />
@@ -82,7 +82,11 @@ const Two_coaches = () => {
           provided in the industry to a significantly higher level.
         </p>
       </div>
+      
     </div>
+    <div className="two-coaches-back">
+
+      </div>
     </div>
   );
 };

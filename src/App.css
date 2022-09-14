@@ -8,10 +8,10 @@
 }
 .App {
   text-align: center;
-  
   overflow-y: hidden;
 }
 .home{
+ 
   /* height:380vw; */
   overflow: hidden;
 }
