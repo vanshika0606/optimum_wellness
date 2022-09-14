@@ -9,6 +9,8 @@ import UnderNavbar from '../components/UnderNavbar/UnderNavbar.js';
 import Footer from '../components/footer/Footer.js';
 import Join_Us from '../components/Coaches/Join_Us';
 
+import square from '../components/images/square-design.png';
+
 
 const Home_page = () => {
   return (
@@ -18,7 +20,7 @@ const Home_page = () => {
       <Methodology/>
       <Steps/>
       <Carousel/>
-      <Coaches/>
+      <Coaches heading={"MEET OUR COACHES"} headingColor={'rgb(118, 33, 236)'} square={square} background={'white'} nameColor={'rgb(118, 33, 236)'}  bottomImages={'-7vw'} headingPaddingTop={'0vw'} professionColor={'black'}/>
       <Join_Us/>
       <Footer/>
     </div>

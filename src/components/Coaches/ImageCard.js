@@ -6,8 +6,8 @@ const ImageCard = (props) => {
   return (
     <div className='image-card'>
         <img src={props.image} />
-        <h4>{props.name}</h4>
-        <p>{props.certification}</p>
+        <h4 style={{color:`${props.nameColor}`}}>{props.name}</h4>
+        <p style={{color:`${props.professionColor}`}}>{props.certification}</p>
       
     </div>
   )

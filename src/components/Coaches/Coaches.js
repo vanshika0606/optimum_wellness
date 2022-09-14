@@ -1,29 +1,31 @@
 import React from "react";
 import "./coaches.css";
-import square from '../images/square-design.png';
+
 import data from "./coaches_data";
 import ImageCard from "./ImageCard";
 
 
 
-const Coaches = () => {
+const Coaches = (props) => {
   return (
-    <div className="meet-coaches-section">
-      <div className="meet-our-coaches">
-        MEET OUR COACHES
-        <div className="coaches-line"></div>
+    <div style={{ backgroundColor: `${props.background}`}} className="meet-coaches-section">
+      <div style={{color: `${props.headingColor}`, paddingTop: `${props.headingPaddingTop}`}} className="meet-our-coaches">
+        {props.heading}
+        <div style={{backgroundColor: `${props.headingColor}`}} className="coaches-line"></div>
       </div>
       <div className="square-coaches">
-      <img className="square-design" src={square} />
+      <img className="square-design" src={props.square} />
 
       <div className="coach-images-box">
-      <div className="coaches-image">
+      <div style={{bottom: `${props.bottomImages}`}} className="coaches-image">
         {
             data.map((d)=>{
          
                 return <>
                   <ImageCard name={d.name} image={d.img}
                   certification={d.certtification}
+                  nameColor={props.nameColor}
+                  professionColor={props.professionColor}
                   />
                 </>
                })
